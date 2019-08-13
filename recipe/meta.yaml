@@ -1,5 +1,5 @@
 {% set name = "pynamodb" %}
-{% set version = "3.4.1" %}
+{% set version = "4.0.0" %}
 
 package:
   name: {{ name|lower }}
@@ -7,11 +7,11 @@ package:
 
 source:
   url: https://pypi.io/packages/source/{{ name[0] }}/{{ name }}/{{ name }}-{{ version }}.tar.gz
-  sha256: 22e5deda1e81af6ecb0363fbf50d8c03664976a8656c4ef01f3e158befc68fb3
+  sha256: c0937e2ae0ae4abc174115255e93136a7a28b512046911df1a9e6bc8cb52d7a4
 
 build:
   noarch: python
-  number: 1
+  number: 0
   script: "{{ PYTHON }} -m pip install . -vv"
 
 requirements:
