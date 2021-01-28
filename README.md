@@ -5,9 +5,13 @@ Home: http://jlafon.io/pynamodb.html
 
 Package license: MIT
 
-Feedstock license: BSD-3-Clause
+Feedstock license: [BSD-3-Clause](https://github.com/conda-forge/pynamodb-feedstock/blob/master/LICENSE.txt)
 
 Summary: A Pythonic interface for Amazon’s DynamoDB that supports Python 2 and 3.
+
+Development: https://github.com/pynamodb/PynamoDB
+
+Documentation: http://pynamodb.readthedocs.io/
 
 PynamoDB is a Pythonic interface to Amazon’s DynamoDB. By using simple,
 yet powerful abstractions over the DynamoDB API, PynamoDB allows you
