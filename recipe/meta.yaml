@@ -1,5 +1,5 @@
 {% set name = "pynamodb" %}
-{% set version = "5.2.3" %}
+{% set version = "5.3.0" %}
 
 package:
   name: {{ name|lower }}
@@ -7,7 +7,7 @@ package:
 
 source:
   url: https://pypi.io/packages/source/{{ name[0] }}/{{ name }}/pynamodb-{{ version }}.tar.gz
-  sha256: 9601a51e59488b0532e5137d1c970c253e1754abba0e2852422e94b1b7e9a75d
+  sha256: 2bfb6fdafe461af55699a286ca24b3369326a41fcf9e3a604551cab75d132d75
 
 build:
   noarch: python
@@ -20,7 +20,6 @@ requirements:
     - python >=3.7
   run:
     - botocore >=1.12.54
-    - blinker >=1.3,<2.0
     - python >=3.7
     - typing-extensions >=3.7
 
