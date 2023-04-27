@@ -1,11 +1,11 @@
-About pynamodb
-==============
+About pynamodb-feedstock
+========================
+
+Feedstock license: [BSD-3-Clause](https://github.com/conda-forge/pynamodb-feedstock/blob/main/LICENSE.txt)
 
 Home: http://jlafon.io/pynamodb.html
 
 Package license: MIT
-
-Feedstock license: [BSD-3-Clause](https://github.com/conda-forge/pynamodb-feedstock/blob/main/LICENSE.txt)
 
 Summary: A Pythonic Interface to DynamoDB
 
